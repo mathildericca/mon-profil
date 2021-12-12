@@ -1,0 +1,152 @@
+body {
+	color: #B9D7EA;
+	background-image: url(images/Marbre.jpg);
+	font-family: Time, serif;
+}
+
+a {
+	text-decoration: none;
+	color: #769FCD;
+}
+
+h1 {
+	color: #125D98;
+	font-family: tahoma;
+	font-size: 32px;
+}
+
+h2 {
+	color: #769FCD;
+	font-size: 24px;
+}
+
+#liste-reseaux-sociaux {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+li {
+	margin-bottom: 15px;
+	display: inline;
+	font-size: 24px;
+}
+
+#profile-picture-round {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+
+.container {
+  width: 1040px;
+  padding: 24px;
+  margin: 0 auto;
+}
+
+.card-white {
+	background: white;
+	padding: 30px;
+	margin: 12px auto;
+	border-radius: 8px;
+	box-shadow: 0 15px 35px rgba(50, 50, 93, 0.5);
+	text-align: center;
+	vertical-align: middle;
+}
+
+.btn-blue {
+	width: 160px;
+	height: 96px;
+	padding: 16px;
+	background: #B9D7EA;
+	color: #769FCD;
+	border-radius: 6px;
+	border: solid 1px #B9D7EA;
+}
+
+.btn-blue:hover {
+	background: #125D98;
+	color: white;
+	border: solid 1px #125D98;
+	transition: 0.5s;
+}
+
+#debut {
+	font-weight: bold;
+}
+
+#img-ags {
+  background-image: url(images/AGS.png);
+  background-position: center;
+  background-size: auto 100%;
+}
+
+#img-cheval {
+  background-image: url(images/Cheval.png);
+  background-position: center;
+  background-size: 100% auto;
+}
+
+#img-om {
+  background-image: url(images/OM.jpg);
+  background-position: center;
+  background-size: 100% auto;
+}
+
+#fond-titre {
+  color: white;
+  font-size: 24px;
+  padding: 8px 20px 8px 20px;
+  background: #769FCD;
+  border-radius: 32px;
+}
+
+#fond-ballon {
+  color: white;
+  padding: 6px 16px 6px 16px;
+  background: #769FCD;
+  border-radius: 32px;
+}
+
+#img-petanque {
+  background-image: url(images/Petanque.png);
+  background-position: center;
+  background-size: auto 100%;
+}
+
+#img-reseaux {
+  background: linear-gradient(270deg, #475254, #656e70, #919698, #b1bec1);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 7s ease infinite;
+    -moz-animation: AnimationName 7s ease infinite;
+    animation: AnimationName 7s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@media(max-width: 900px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media(max-width: 600px) {
+	.container {
+		width: 400px;
+	}
+}
